@@ -43,3 +43,4 @@ if uploaded_file is not None:
         plt.figure(figsize=(6, 4))
         sns.histplot(df[col], kde=True)
         st.pyplot()
+
